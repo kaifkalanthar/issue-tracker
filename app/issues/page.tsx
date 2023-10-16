@@ -1,13 +1,8 @@
-import { Button } from "@radix-ui/themes";
-import React from "react";
+import "easymde/dist/easymde.min.css";
+import SimpleMdeReact from "react-simplemde-editor";
 
 const page = () => {
-  return (
-    <div>
-      Issue Tracker
-      <Button>Hey There</Button>
-    </div>
-  );
+  return <div>{/* <SimpleMdeReact placeholder="Description" /> */}</div>;
 };
 
 export default page;
