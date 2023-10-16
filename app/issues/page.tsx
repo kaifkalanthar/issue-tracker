@@ -1,8 +1,11 @@
 import "easymde/dist/easymde.min.css";
-import SimpleMdeReact from "react-simplemde-editor";
 
 const page = () => {
-  return <div>{/* <SimpleMdeReact placeholder="Description" /> */}</div>;
+  return (
+    <div>
+      <h1>Issues</h1>
+    </div>
+  );
 };
 
 export default page;
