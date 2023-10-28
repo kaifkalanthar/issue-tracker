@@ -43,7 +43,7 @@ const page = () => {
     <div className="max-w-xl">
       {error && (
         <Callout.Root className="mb-5" color="red">
-          <Callout.Text>{error} </Callout.Text>
+          <Callout.Text>{error}</Callout.Text>
         </Callout.Root>
       )}
       <form className="space-y-5" onSubmit={onSubmit}>
